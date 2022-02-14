@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Result</h1>
+  <p><%= @result %></p>
+  <% if @score %>
+  <p> Score: <%= @score %></p>
+  <% end %>
+  <%= link_to "Play again", new_path %>
+</div>
